@@ -11,6 +11,7 @@ int main()
     /*fill the ram with page
      * d-> data ,b -> bss,h->heap-stack
      */
+    /*i could do it in loop */
     mem_sm.store(1, 25,'d');
     mem_sm.store(1, 30,'d');
     mem_sm.store(1, 35,'d');
