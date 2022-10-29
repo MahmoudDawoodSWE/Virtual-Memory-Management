@@ -14,14 +14,6 @@ valid - the page found in  main memory
  swap_index - number of the page in the swap file 
 ===================Functions=================
 
- tail -> pointer to insert page
- head -> pointer to delete page
-
-enqueue()     //insert page
-tail + 1 % rampage
-dequeue()     //delete page
-head + 1 % rampage
-
 swapPage() array of value 1 or 0 with length of  the swap num page 
 this keep the available places in the swap
  available -> 0
